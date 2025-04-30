@@ -1,3 +1,5 @@
+from logging.config import listen
+
 print("hello-world")
 
 def square(list) -> list :
@@ -8,3 +10,4 @@ def square(list) -> list :
 
 list1 = [1,2,3,4,5,6,7]
 
+print(square(list1))
